@@ -4,13 +4,11 @@ import time
 import tweepy
 import pandas as pd
 
-API_KEY = 'WHqCviEwyimfpPBFUdbimIs8V'
-API_KEY_SECRET = '6NbaVOSnvKqkx94uAZks0ZrTLdiD8UC0v03YlMCutkNi1sOg0t'
-ACCESS_TOKEN = '1574326318241554434-XPneVnJpNOvF2PA3SPOSQmp8I3LefM'
-ACCESS_TOKEN_SECRET = '3ALrjPbaqhoGbS4IBInKuDuN5UYHjnNxz0pwl8XaA3i2U'
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAKAChgEAAAAACr63I1jRBhLTgSwNHYu9P' \
-               'LkuZFk%3D47ZRV9j0nMjzSQHA9nKjmQ5YFXQrC2qwoNdHFcs30rtos' \
-               'llE3C'
+API_KEY = '#'
+API_KEY_SECRET = '#'
+ACCESS_TOKEN = '#'
+ACCESS_TOKEN_SECRET = '#'
+BEARER_TOKEN = '#'
 
 auth = tweepy.OAuthHandler(API_KEY, API_KEY_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
