@@ -4,7 +4,7 @@ import pandas as pd
 
 # read data from csv file
 path = os.getcwd()
-tweets_data = pd.read_csv('/home/wairioko/Desktop/tweets.csv')
+tweets_data = pd.read_csv(path + '/tweets.csv')
 
 
 def clean_tweets(data):
