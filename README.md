@@ -21,3 +21,7 @@ The fourth file, create_url.py, is used to create URLs that direct to a tweet gi
 ### * * main.py
 
 The fifth file, main.py, is the main file used to execute the other four files in a specified order. The list of the file names is defined in the beginning of the file and is iterated through using a for loop with each file name being passed to the exec command. This allows the code in each file to be executed in the desired sequence and helps to automate the entire process.
+
+### * * data to train model
+The data required to train the nlp model that categorises the tweets can be found at:
+https://drive.google.com/file/d/1xZhgOSXlPvt5ZumVaD47agfrX5LCYh3r/view?usp=share_link
