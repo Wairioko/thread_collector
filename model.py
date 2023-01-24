@@ -9,13 +9,6 @@ import numpy as np
 import logging
 
 dataset = pd.read_json("news_category_dataset.json", lines=True)
-# print(data['QUEER VOICES'])
-data = ''
-for item in dataset['category']:
-    if item == 'QUEER VOICES':
-        del item
-        data = dataset
-
 
 def tokenize_url(url:str):
     url = url.replace("https://www.huffingtonpost.com/entry/","")
