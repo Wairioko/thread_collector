@@ -32,7 +32,7 @@ https://drive.google.com/file/d/1xZhgOSXlPvt5ZumVaD47agfrX5LCYh3r/view?usp=share
 
 You need to apply for a twitter developer account and get access to get authentication keys and tweets via tweepy.  
 Then run the following:
-1. !git clone https://github.com/Wairioko/thread_collector.git
+1. git clone https://github.com/Wairioko/thread_collector.git
 2. cd thread_collector
 3. pip install -r requirements.txt 
 4. python3 main.py
